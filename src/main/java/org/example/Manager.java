@@ -1,8 +1,42 @@
 package org.example;
 
 public class Manager extends Employee implements IManager{
+    private int numberOfEmployeesSupervised;
+    @Override
+    public void increaseSalary(SoftwareDeveloper softwareDeveloper,int salary) {
+        System.out.println(softwareDeveloper +" increase ");
+    }
 
-    // A Manager has numberOfEmployeesSupervised attribute additionally.
+    @Override
+    public void hireEmployee(SoftwareDeveloper softwareDeveloper) {
+        System.out.println(softwareDeveloper.getFirstName() + "hire ");
+
+
+    } @Override
+    public void hireEmployee(Employee employee) {
+        System.out.println(employee.getFirstName() + "hire ");
+    }
+
+    @Override
+    public void fireEmployee(Employee employee) {
+
+    }
+
+    @Override
+    public void getNumberOfEmployeesSupervised() {
+
+    }
+
+    public void setNumberOfEmployeesSupervised(int numberOfEmployeesSupervised) {
+        this.numberOfEmployeesSupervised = numberOfEmployeesSupervised;
+    }
+
+    public Manager(int id, String firstName, String lastName, int age, double salary, String department, int numberOfEmployeesSupervised) {
+        super(id, firstName, lastName, age, salary, department);
+        this.numberOfEmployeesSupervised = numberOfEmployeesSupervised;
+    }
+// A Manager has numberOfEmployeesSupervised attribute additionally.
     // Please implement necessary methods to get and set these attributes of Manager
-
+    // Bir Yönetici ayrıca numberOfEmployeesSupervised özniteliğine sahiptir.
+    // Lütfen Manager'ın bu özniteliklerini almak ve ayarlamak için gerekli yöntemleri uygulayın
 }
