@@ -13,3 +13,4 @@ public interface IManager {
     public void getNumberOfEmployeesSupervised();
 
 }
+ 
