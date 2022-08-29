@@ -84,3 +84,4 @@ public class Employee implements IEmployee{
     // Lütfen çalışanın bu özelliklerini almak ve ayarlamak için gerekli yöntemleri uygulayın
     // Tüm yöntemler yalnızca çalışanın adını (Yönetici veya SoftDev) ve yöntemin adını yazdırmalıdır.
  }
+ 
