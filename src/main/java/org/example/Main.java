@@ -8,7 +8,7 @@ public class Main {
         // Manager(id, firstName, lastName, age, salary, department)
 
         Manager manager1 = new Manager(1, "John", "Murphy", 45, 10000, "Test",2);
-        Manager manager2 = new Manager(2, "Mark", "Rylie", 51, 10200, "Development",4);
+        Manager manager2 = new Manager(2, "Mark", "Rylie", 51, 10200, "Development",8);
         Manager manager3 = new Manager(3, "Maria", "Swift", 42, 10500, "HR",4);
 
         SoftwareDeveloper softwareDeveloper1 = new SoftwareDeveloper(1, "Alex", "Davies", 27, 6000, "Test", manager1, "Selenium", 7);
