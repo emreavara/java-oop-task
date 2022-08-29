@@ -61,3 +61,4 @@ public class SoftwareDeveloper extends Employee implements ISoftwareDeveloper{
     // Bir Yönetici ayrıca Süpervizör, beceriler, deneyim özelliğine sahiptir.
     // Lütfen Manager'ın bu özniteliklerini almak ve ayarlamak için gerekli yöntemleri uygulayın
 }
+ 
